@@ -2,6 +2,7 @@ import { Component } from "react";
 import Block from "components/Block/Block";
 import VoteResults from "components/VoteResults/VoteResults";
 import VoteActions from "components/VoteActions/VoteActions";
+import { Error } from "./Vote.styled";
 
 export default class Vote extends Component {
   state = {
@@ -45,7 +46,7 @@ export default class Vote extends Component {
           <VoteActions leaveVote={this.leaveVote} />
         </Block>
         <Block title="Statistics">
-          {!total ? <div>No feedback given</div> :
+          {!total ? <Error>No feedback given</Error> :
           <VoteResults
             good={good}
             neutral={neutral}

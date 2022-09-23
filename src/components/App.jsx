@@ -1,10 +1,13 @@
 import Vote from "./Vote/Vote"
+import PhoneBook from "./Phonebook/Phonebook";
+import { Container } from "./App.styled";
 
 function App() {
   return (
-    <div>
+    <Container>
       <Vote />
-    </div>
+      <PhoneBook/>
+    </Container>
   )
 }
 

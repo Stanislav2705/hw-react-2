@@ -1,17 +1,19 @@
 import React from "react";
+import { ListButton, ItemButton,Button } from "./VoteActions.styled";
+
 
 export default function VoteActions({leaveVote}) {
   return (
-    <>
-      <div>
-        <button onClick={() => leaveVote("good")}>Good</button>
-      </div>
-      <div>
-        <button onClick={() => leaveVote("neutral")}>Neutral</button>
-      </div>
-      <div>
-        <button onClick={() => leaveVote("bad")}>Bad</button>
-      </div>
-    </>
+    <ListButton>
+      <ItemButton>
+        <Button variant="contained" onClick={() => leaveVote("good")}>Good</Button>
+      </ItemButton>
+      <ItemButton>
+        <Button onClick={() => leaveVote("neutral")}>Neutral</Button>
+      </ItemButton>
+      <ItemButton>
+        <Button onClick={() => leaveVote("bad")}>Bad</Button>
+      </ItemButton>
+    </ListButton>
   )
 }

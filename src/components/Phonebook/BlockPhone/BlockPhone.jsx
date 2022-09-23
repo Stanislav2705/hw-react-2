@@ -1,4 +1,4 @@
-const Block = ({title, children}) => {
+const BlockPhone = ({title, children}) => {
   return (
     <div>
       <h2>{title}</h2>
@@ -10,5 +10,4 @@ const Block = ({title, children}) => {
 
 
 
-export default Block;
-
+export default BlockPhone;
