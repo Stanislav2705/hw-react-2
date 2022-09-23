@@ -1,8 +1,8 @@
 {
-  "name": "react-homework-template",
+  "name": "project-team-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Stanislav2705.github.io/project-team-2/",
+  "homepage": "https://Stanislav2705.github.io/hw-react-2/",
   "dependencies": {
     "@mui/material": "^5.10.6",
     "@mui/styled-engine-sc": "^5.10.6",
