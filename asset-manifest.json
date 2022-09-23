@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-homework-template/static/js/main.ad645fba.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.ad645fba.js.map": "/react-homework-template/static/js/main.ad645fba.js.map"
+    "main.js": "/project-team-2/static/js/main.4ef6ac40.js",
+    "index.html": "/project-team-2/index.html",
+    "main.4ef6ac40.js.map": "/project-team-2/static/js/main.4ef6ac40.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad645fba.js"
+    "static/js/main.4ef6ac40.js"
   ]
 }
