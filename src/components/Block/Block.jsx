@@ -7,8 +7,5 @@ const Block = ({title, children}) => {
   )
 }
 
-
-
-
 export default Block;
 
