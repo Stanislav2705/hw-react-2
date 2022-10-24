@@ -58,7 +58,8 @@ export default class FormPhoneBook extends Component {
                 type="text"
                 value={this.state.name}
                 onChange={handleChange}
-                minLength={3}
+              minLength={3}
+              autoComplete="off"
               />
             </Block>
             <Block>
@@ -71,7 +72,8 @@ export default class FormPhoneBook extends Component {
                 onChange={handleChange}
                 pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
                 title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
-                required
+              required
+              autoComplete="off"
               />
           </Block>
           </Container>
